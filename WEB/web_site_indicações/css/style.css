@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("../img/byakuya-kuchiki-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
