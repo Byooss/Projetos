@@ -12,7 +12,7 @@
 
 <body>
     <h1>Minhas Obras favoritas <br><small style="font-size: 0.4em;">NÃO ESTÁ EM ORDEM DE RELEVNÂNCIA</small></h1>
-    
+
 
     <div>
         <h2>Filmes que eu gosto:</h2>
@@ -83,11 +83,25 @@
         </ol>
         </h3>
     </div>
-    <div>
-        <h2>
-            Você teria alguma sugestão de filmes, séries ou animes?
-        </h2>
-    </div>
+    <form action="#" autocomplete="off">
+        <fieldset>
+            <legend>
+                <h2>Você teria alguma sugestão de filmes, séries ou animes?</h2>
+            </legend>
+            <p><label for="idnome">Nome:</label>
+                <input type="text" name="nome" id="idnome" placeholder="Escreva seu nome aqui">
+            </p>
+            <p><label for="idcategoria">Categoria:</label>
+                <input type="text" name="Categoria" id="idcategoria" placeholder="Filme / anime / série">
+            </p>
+            <p><label for="idindicação">Indicação:</label>
+                <input type="text" name="indicação" id="idindicação" placeholder="Me indica ai moral">
+            </p>
+            <p><input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
 </body>
 
 </html>
