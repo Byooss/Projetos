@@ -15,7 +15,7 @@
 
 
     <div>
-        <h2>Filmes que eu gosto:</h2>
+        <h2> <mark style="background-color:#b675f7;">Filmes que eu gosto:</mark></h2>
         <h3>
             <ul>
                 <li>Velozes e Furiosos 3 - Desafio em Tóquio - 2006;</li>
@@ -28,7 +28,7 @@
     </div>
 
     <div>
-        <h2>Animes que eu gosto:</h2>
+        <h2> <mark style="background-color:#b675f7;">Animes que eu gosto:</mark></h2>
         <h3>
             <ul>
                 <li>Bleach;</li>
@@ -41,7 +41,7 @@
     </div>
 
     <div>
-        <h2>Séries que eu gosto:</h2>
+        <h2><mark style="background-color:#b675f7;">Séries que eu gosto:</mark></h2>
         <h3>
             <ul>
                 <li>Sobrenatural;</li>
@@ -54,9 +54,9 @@
     </div>
 
     <div>
-        <h2>Esses são os Lançamentos que quero assistir:</h2>
+        <h2> <mark style="background-color:#b675f7;">Esses são os Lançamentos que quero assistir:</mark></h2>
         <h2>
-            <li>2023</li>
+            <li> <mark style="background-color:#b675f7;">2023</mark></li>
         </h2>
         <ol>
             <h3>
@@ -69,7 +69,7 @@
         </h3>
 
         <h2>
-            <li>2024</li>
+            <li><mark style="background-color:#b675f7;">2024</mark></li>
         </h2>
         <ol>
             <h3>
@@ -84,22 +84,34 @@
         </h3>
     </div>
     <form action="#" autocomplete="off">
-        <fieldset>
+        <fieldset style="width: 650px; ">
             <legend>
-                <h2>Você teria alguma sugestão de filmes, séries ou animes?</h2>
+                <h2 mark style="background-color:#b675f7;">Você teria alguma sugestão de filmes, séries ou animes?</mark> </h2>
             </legend>
-            <p><label for="idnome">Nome:</label>
-                <input type="text" name="nome" id="idnome" placeholder="Escreva seu nome aqui">
-            </p>
-            <p><label for="idcategoria">Categoria:</label>
-                <input type="text" name="Categoria" id="idcategoria" placeholder="Filme / anime / série">
-            </p>
-            <p><label for="idindicação">Indicação:</label>
-                <input type="text" name="indicação" id="idindicação" placeholder="Me indica ai moral">
-            </p>
-            <p><input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
+            <table>
+                <tbody>
+                    <tr>
+                        <p><td><label for="idnome">Nome:</label></td>
+                            <td><input type="text" name="nome" id="idnome" placeholder="Escreva seu nome aqui"></td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="idcategoria">Categoria:</label></td>
+                            <td><input type="text" name="categoria" id="idcategoria" placeholder="Filme / anime / série"></td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="idindicacao">Indicação:</label></td>
+                            <td><input type="text" name="indicacao" id="idindicacao" placeholder="Me indica ai moral"></td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p><td><input type="submit" value="Enviar"></td>
+                            <td><input type="reset" value="Limpar"></td>
+                        </p>
+                    </tr>
+                </tbody>
+            </table>
         </fieldset>
     </form>
 </body>
