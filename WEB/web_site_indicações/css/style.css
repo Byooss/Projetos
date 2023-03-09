@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url("../img/byakuya-kuchiki-background.png");
+    background-image: url("../media/byakuya-kuchiki-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
