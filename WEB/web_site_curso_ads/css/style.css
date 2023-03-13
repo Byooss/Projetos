@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*height: 100%;*/
     font-weight: bolder;
-    
+
 }
-body{
+
+body {
     margin: 0px;
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: darkgrey;
     margin-top: 0px;
@@ -21,42 +23,52 @@ h1{
     border-right: 0px;
 
 }
-h2{
+
+h2 {
     margin: 20px;
 }
-#sobreCurso{
+
+#sobreCurso {
     border-color: rgb(0, 0, 0);
     border-style: solid;
     background-color: rgb(169, 169, 169);
     margin: 5px;
 }
-#semestre
-    {
-        border-color: rgb(0, 0, 0);
-        border-style: solid;
-        background-color: darkgray;
-        margin: 5px;
-    }
-#disciplinas{
+
+#semestre {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+#disciplinas {
     border-color: rgb(0, 0, 0);
     border-style: solid;
     background-color: rgb(201, 201, 201);
     margin: 5px;
-    padding-top:10px;
-    text-shadow:#000 0.5px 0.5px, #000 0.5px 0.5px, #000 0.5px 0.5px, #000 0.5px 0.5px;
+    padding-top: 10px;
+    text-shadow: #000 0.5px 0.5px, #000 0.5px 0.5px, #000 0.5px 0.5px, #000 0.5px 0.5px;
 }
-p{
+
+p {
     text-align: justify;
     margin: 20px;
 }
-table, th,tr,td {
+
+table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
     padding: 10px;
-    text-shadow:#000 0.2px 0.2px, #000 0.2px 0.2px, #000 0.2px 0.2px, #000 0.2px 0.2px;
-    
-  }
-  th,tr,td{
-    background-color:darkgrey;
-  }  
+    text-shadow: #000 0.2px 0.2px, #000 0.2px 0.2px, #000 0.2px 0.2px, #000 0.2px 0.2px;
+
+}
+
+th,tr, td {
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    background-color:rgb(199, 199, 199);
+}
