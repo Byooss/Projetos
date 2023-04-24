@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>HTML c/ CSS</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
     <header>
         <h1>Meu Segundo Site em HMTL, AGORA COM CSS</h1>
     </header>
-    <section>
-        <div>Pobre só enche a barriga quando morre afogado.
-            <img src="css/">
-            <label>Por que 'tudo junto' se escreve separado e 'separado' se escreve tudo junto?            </label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Resposta"></textarea>
-
+    <section class="meme">
+        <div id="imagem_1">Pobre só enche a barriga quando morre afogado.
+            <img src="media/cachorro.jpg">
+            <label>Por que 'tudo junto' se escreve separado e 'separado' se escreve tudo junto?</label>
+            <form> 
+                <textarea placeholder="Resposta"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
-        <div>
+        <div id="imagem_2">Se barba fosse respeito, bode não tinha chifre.
+            <img src="media/entao.jpg">
+            <label>Como se escreve o número 0 em algarismos romanos?</label>
+            <form>
+                <textarea placeholder="Resposta"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
 
         </div>
     </section>
-    
-    <footer>
 
+    <br>
+
+    <footer>
+        <fieldset>
+            <legend>Informações do Criador</legend>
+            <p>Autor: Kevin César Araújo</p>
+            <p>E-mail: kevin.dev.cesar@gmail.com</p>
+            <p>GitHub: KevinCesarDev</p>
+        </fieldset>
     </footer>
 </body>
+
 </html>
