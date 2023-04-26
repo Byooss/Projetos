@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    /* botar a fonte Chakra Petch */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo{
+    align-items: center;  
+}
+.logo h2{
+    margin-top: 0px;
+    
+}
+.campos{
+    display: inline-grid; 
+}
+.login{
+    margin-bottom: 5px;
+}
+.password{
+    margin-bottom: 5px;
+}
+.buttton_login{
+    border-radius: 10px;
+}
+.link_esq_senha a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link_cadastro a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
