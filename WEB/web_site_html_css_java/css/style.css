@@ -32,18 +32,21 @@ header{
     text-align: center;
     
 }
-.campos label{
+.campos label{      
     color: white;
+    font-size: larger;
 }
 
 .campos{
     display: inline-grid; 
+    width: 250px;
 }
 
 .login{
     margin-bottom: 5px;
     color: white;
     margin-bottom: 25px;
+    width: 100%;
     
     
 }
@@ -51,18 +54,19 @@ header{
     border-radius: 8px;
     height: 25px;
     background-color: #546E81;
+    width: 73%;
 }
-
-
 
 .password{
     margin-bottom: 20px;
     color: white;
+    width: 100%;
 }
 .password input{
     border-radius: 8px;
     height: 25px;
     background-color: #546E81;
+    width: 73%;
 }
 
 input.button_login{
