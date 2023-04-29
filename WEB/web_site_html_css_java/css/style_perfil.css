@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+header h1{
+    width: 100%;    
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: blueviolet;
+}
+
+#imagem_1{
+    display: inline-grid;
+    justify-items: start;
+
+}
+#imagem_2{
+    display: inline-grid;
+    justify-items: start;
+
+}
+
+/* Eu editei e ajustei as imagem pelo GIMP  */
+#imagem_1 img{
+    width: 100%;
+    border-style:inset;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+#imagem_2 img{
+    width: 100%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: blueviolet;
+
+}
+
+.meme{
+    text-align-last: justify;
+}
+footer{
+    background-color: rgba(0, 0, 139, 0.26);
+    border-radius: 10px;
+    border: solid  blueviolet;
+
+}
+footer fieldset{
+    background-color: rgba(17, 0, 255, 0.39);
+    border-radius: 5px;
+    width: 20%;
+}
+
+footer fieldset legend{
+    font-size: large;
+    background-color: rgba(119, 0, 255, 0.973);
+    /* color: azure; */
+    border-radius: 5px;
+    border: solid 1px; 
+}
+textarea{
+    border-radius: 5px;
+    
+}
+
+footer p{
+    background-color: rgba(132, 0, 255, 0.349);
+    width: 90%;
+    border-radius: 5px;
+    border: solid 1px;    
+}
+
+button{
+    align-items: end;
+}
