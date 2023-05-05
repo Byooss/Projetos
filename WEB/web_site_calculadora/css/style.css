@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    
+}
+body{
+    display:grid;
+    justify-items: center;
+}
+form{
+    display: grid;
+}
+.pValor{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+form label{
+    margin-right: 5px;
+}
+
+.opCalcular{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.bCalcular{
+    margin: 2px;
+}
