@@ -1,7 +1,7 @@
 package projetocalculadora;
 
 public class DesignCalculadora extends javax.swing.JFrame {
-
+    
     Calculadora calc = new Calculadora();
     boolean vVirgula = false;
     String mM = "+";
@@ -53,6 +53,7 @@ public class DesignCalculadora extends javax.swing.JFrame {
         mMenos = new javax.swing.JButton();
         ms = new javax.swing.JButton();
         mParaBaixo = new javax.swing.JButton();
+        guardarconta = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -60,6 +61,11 @@ public class DesignCalculadora extends javax.swing.JFrame {
         porcentagem.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         porcentagem.setForeground(new java.awt.Color(51, 51, 51));
         porcentagem.setText("%");
+        porcentagem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                porcentagemActionPerformed(evt);
+            }
+        });
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
         jLabel1.setText("Padrão");
@@ -93,6 +99,11 @@ public class DesignCalculadora extends javax.swing.JFrame {
         fracao.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         fracao.setForeground(new java.awt.Color(51, 51, 51));
         fracao.setText("1/x");
+        fracao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fracaoActionPerformed(evt);
+            }
+        });
 
         quadrado.setBackground(new java.awt.Color(247, 249, 252));
         quadrado.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
@@ -305,6 +316,9 @@ public class DesignCalculadora extends javax.swing.JFrame {
             }
         });
 
+        guardarconta.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        guardarconta.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -326,11 +340,6 @@ public class DesignCalculadora extends javax.swing.JFrame {
                         .addComponent(mParaBaixo, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 407, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel1))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(porcentagem, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -377,7 +386,15 @@ public class DesignCalculadora extends javax.swing.JFrame {
                                     .addComponent(subtracao, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(adicao, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(divisao, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(igual, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(igual, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jLabel1)
+                                    .addGap(58, 58, 58)
+                                    .addComponent(guardarconta, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 407, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -385,11 +402,16 @@ public class DesignCalculadora extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(22, 22, 22))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(guardarconta, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(resultado)
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(mc, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -440,7 +462,7 @@ public class DesignCalculadora extends javax.swing.JFrame {
                         .addComponent(adicao, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(igual, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         pack();
@@ -448,25 +470,27 @@ public class DesignCalculadora extends javax.swing.JFrame {
 
     private void apagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apagarActionPerformed
         mM=calc.apagarCaract(mM,resultado);
-        vVirgula=calc.virgulaAp;
-
-        
+        vVirgula=calc.virgulaAp;    
         // TODO add your handling code here:
     }//GEN-LAST:event_apagarActionPerformed
 
     private void divisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divisaoActionPerformed
         // TODO add your handling code here:
+        calc.guardarOperacao(resultado.getText(), divisao.getText(), guardarconta);
     }//GEN-LAST:event_divisaoActionPerformed
 
     private void multiplicacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplicacaoActionPerformed
         // TODO add your handling code here:
+        calc.guardarOperacao(resultado.getText(), multiplicacao.getText(), guardarconta);
     }//GEN-LAST:event_multiplicacaoActionPerformed
 
     private void subtracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtracaoActionPerformed
         // TODO add your handling code here:
+        calc.guardarOperacao(resultado.getText(), subtracao.getText(), guardarconta);
     }//GEN-LAST:event_subtracaoActionPerformed
 
     private void adicaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adicaoActionPerformed
+        calc.guardarOperacao(resultado.getText(), adicao.getText(), guardarconta);
         // TODO add your handling code here:
     }//GEN-LAST:event_adicaoActionPerformed
 
@@ -545,6 +569,7 @@ public class DesignCalculadora extends javax.swing.JFrame {
     private void cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cActionPerformed
         resultado.setText("0");
         vVirgula = false;
+        guardarconta.setText("");
 
         // TODO add your handling code here:
     }//GEN-LAST:event_cActionPerformed
@@ -565,6 +590,16 @@ public class DesignCalculadora extends javax.swing.JFrame {
         
         // TODO add your handling code here:
     }//GEN-LAST:event_fracao2ActionPerformed
+
+    private void fracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fracaoActionPerformed
+        // TODO add your handling code here:
+        calc.umBarraX(resultado.getText(), resultado, guardarconta);
+    }//GEN-LAST:event_fracaoActionPerformed
+
+    private void porcentagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_porcentagemActionPerformed
+        // TODO add your handling code here:
+        calc.porcentValor(resultado.getText(), resultado, guardarconta);
+    }//GEN-LAST:event_porcentagemActionPerformed
 
     /**
      * @param args the command line arguments
@@ -609,6 +644,7 @@ public class DesignCalculadora extends javax.swing.JFrame {
     private javax.swing.JButton divisao;
     private javax.swing.JButton fracao;
     private javax.swing.JButton fracao2;
+    private javax.swing.JLabel guardarconta;
     private javax.swing.JButton igual;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;

@@ -1,0 +1,32 @@
+.chamado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.chamado h1,
+.chamado button {
+    margin-top: 50px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 100pt;
+    font-weight: bolder;
+    color: black;
+
+}
+
+button {
+    border-radius: 50px;
+
+}
+
+button a:hover{
+    background-image: linear-gradient(red, black);
+    color: white;
+    border-color: black;
+    transition: 1s;
+    border-radius: 50px;
+}

@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="/CSS/pedido.css">
+</head>
+
+<body>
+    <main>
+        <h2></h2>
+        <h1>Diga pra mim qual remedinho você deseja</h1>
+        <form action="/pedido" method="post">
+            <section class="remedinho">
+                <label for="bomba" name="bomba">Bomba:</label>
+                <input type="text" name="bomba" id="bomba">
+            </section>
+            <h2>Dados de entrega</h2>
+            <section class="dados_pessoais">
+                <label for="nome" name="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="end" name="end">End:</label>
+                <input type="text" name="end" id="end">
+                <label for="email" name="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </section>
+            <button type="submit" class="finalizar">FINALIZAR</button>
+        </form>
+    </main>
+</body>
