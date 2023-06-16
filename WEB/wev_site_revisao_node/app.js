@@ -23,26 +23,27 @@ app.get('/pedido', function (req, res) {
     res.render('pedido');
 })
 
-app.post('/pedido', function (req, res) {
+app.post('/carrinho', function (req, res) {
     droga = req.body.bomba
     nome = req.body.nome
     end = req.body.end
     email = req.body.email
-    console.log(nome)
-    console.log(end)
-    console.log(email)
-    console.log(droga)
+    // console.log(nome)
+    // console.log(end)
+    // console.log(email)
+    // console.log(droga)
     compra = {
         "droga": droga,
         "nome": nome,
         "end": end,
         "email": email
     }
+    console.log(compras)
     compras.push(compra)
     res.render('carrinho',{compras})
 })
 app.get('/carrinho',function(req,res){
-    res.render('carrinho');
+    res.render('carrinho',{compras});
 })
 
 app.listen(8090, function () { console.log("O servidor esta rodando na porta: http://localhost:8090") });
