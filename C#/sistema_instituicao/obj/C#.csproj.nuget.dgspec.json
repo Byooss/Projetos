@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\1_programa\\C#.csproj": {}
+    "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\sistema_instituicao\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\1_programa\\C#.csproj": {
+    "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\sistema_instituicao\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\1_programa\\C#.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\sistema_instituicao\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\1_programa\\C#.csproj",
+        "projectPath": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\sistema_instituicao\\C#.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\1_programa\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Documents\\GitHub\\Projetos\\C#\\sistema_instituicao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
