@@ -1,0 +1,14 @@
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\bin\Debug\net7.0\C#.exe
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\bin\Debug\net7.0\C#.deps.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\bin\Debug\net7.0\C#.runtimeconfig.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\bin\Debug\net7.0\C#.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\bin\Debug\net7.0\C#.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.AssemblyInfoInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.AssemblyInfo.cs
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\refint\C#.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\C#.genruntimeconfig.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\1_programa\obj\Debug\net7.0\ref\C#.dll
