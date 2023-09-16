@@ -1,0 +1,14 @@
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\bin\Debug\net7.0\repositorio_artigos.exe
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\bin\Debug\net7.0\repositorio_artigos.deps.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\bin\Debug\net7.0\repositorio_artigos.runtimeconfig.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\bin\Debug\net7.0\repositorio_artigos.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\bin\Debug\net7.0\repositorio_artigos.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.AssemblyInfoInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.AssemblyInfo.cs
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\refint\repositorio_artigos.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\repositorio_artigos.genruntimeconfig.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\repositorio_artigos\obj\Debug\net7.0\ref\repositorio_artigos.dll

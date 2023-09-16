@@ -39,11 +39,11 @@ namespace C_
         }
 
         public void ValdNota(double nota){
-            if(nota<=10 || nota>=0){
+            if(nota<=10 && nota>=0){
                 this.Nota = nota;
             }else{
-                Console.WriteLine("\nErro! --- Nota digitada não é válida");
-                ValdNota(nota);
+                Console.WriteLine("\n--- Erro! Nota digitada não é válida, digite novamente! ---\nNota: ");
+                ValdNota(double.Parse(Console.ReadLine()));
             }
         }
 
