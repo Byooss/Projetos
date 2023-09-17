@@ -1,0 +1,14 @@
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\bin\Debug\net7.0\reg_pets.exe
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\bin\Debug\net7.0\reg_pets.deps.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\bin\Debug\net7.0\reg_pets.runtimeconfig.json
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\bin\Debug\net7.0\reg_pets.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\bin\Debug\net7.0\reg_pets.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.AssemblyInfoInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.AssemblyInfo.cs
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\refint\reg_pets.dll
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.pdb
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\reg_pets.genruntimeconfig.cache
+C:\Users\kevin\Documents\GitHub\Projetos\C#\reg_pets\obj\Debug\net7.0\ref\reg_pets.dll
